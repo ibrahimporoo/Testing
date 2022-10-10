@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Egypt Governorate | search app</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="title">
+			<i class="fa-solid fa-book-open"></i> Sites Bookmarker
+		</h1>
+		<form id="book-form">
+			<div class="user-fields">
+				<label for="site-name">site name</label>
+				<input type="text" id="site-name" placeholder="site name... ">
+			</div>
+			<div class="user-fields">
+				<label for="site-url">site url</label>
+				<input type="url" id="site-url" placeholder="site url... ">
+			</div>
+			<button type="submit" class="btn-submit" id="btn-submit">Submit</button>
+		</form>
+		<div id="output-list">
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
